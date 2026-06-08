@@ -1,12 +1,12 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, Suspense } from 'react'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { CheckCircle, ShoppingBag, Home, Phone } from 'lucide-react'
 import { useCart } from '@/lib/CartContext'
 
-export default function OrderSuccessPage() {
+function OrderSuccessContent() {
   const searchParams = useSearchParams()
   const orderCode = searchParams.get('code') || ''
   const { clearCart } = useCart()
@@ -74,5 +74,13 @@ export default function OrderSuccessPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function OrderSuccessPage() {
+  return (
+    <Suspense>
+      <OrderSuccessContent />
+    </Suspense>
   )
 }
