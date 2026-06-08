@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 400" fill="none">
+  <defs>
+    <linearGradient id="tvScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="40%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="laptopScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="acScreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#00000018"/>
+    </filter>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#00000012"/>
+    </filter>
+  </defs>
+
+  <!-- Background decorative circles -->
+  <circle cx="378" cy="48" r="88" fill="#f59e0b" opacity="0.10"/>
+  <circle cx="22"  cy="316" r="72" fill="#f59e0b" opacity="0.07"/>
+  <circle cx="210" cy="190" r="170" fill="#f59e0b" opacity="0.025"/>
+
+  <!-- Floating amber dots -->
+  <circle cx="152" cy="16"  r="5.5" fill="#fbbf24" opacity="0.75"/>
+  <circle cx="356" cy="90"  r="4"   fill="#fbbf24" opacity="0.55"/>
+  <circle cx="292" cy="312" r="6"   fill="#fbbf24" opacity="0.40"/>
+  <circle cx="78"  cy="188" r="3.5" fill="#fbbf24" opacity="0.60"/>
+  <circle cx="322" cy="160" r="3"   fill="#fbbf24" opacity="0.50"/>
+  <circle cx="42"  cy="112" r="2.5" fill="#fbbf24" opacity="0.45"/>
+  <circle cx="388" cy="238" r="2.5" fill="#fbbf24" opacity="0.35"/>
+
+  <!-- Sparkle stars -->
+  <path d="M370 20 l2 -6 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 Z" fill="#fbbf24" opacity="0.85"/>
+  <path d="M96  362 l1.6 -5 l1.6 5 l5 1.6 l-5 1.6 l-1.6 5 l-1.6 -5 l-5 -1.6 Z" fill="#fbbf24" opacity="0.50"/>
+  <path d="M310  36 l1.2 -4 l1.2 4 l4 1.2 l-4 1.2 l-1.2 4 l-1.2 -4 l-4 -1.2 Z" fill="#f59e0b" opacity="0.65"/>
+
+  <!-- ══════════════════════════════════════ -->
+  <!--  WASHING MACHINE  (top-left)          -->
+  <!-- ══════════════════════════════════════ -->
+  <g filter="url(#softShadow)">
+    <rect x="18" y="50" width="90" height="100" rx="12" fill="white" stroke="#e2e8f0" stroke-width="1.5"/>
+    <rect x="22" y="54" width="82" height="20" rx="7" fill="#f8fafc"/>
+    <!-- Buttons -->
+    <circle cx="36" cy="64" r="5.5" fill="#fbbf24"/>
+    <circle cx="54" cy="64" r="5.5" fill="#e2e8f0"/>
+    <circle cx="72" cy="64" r="5.5" fill="#e2e8f0"/>
+    <!-- Drum -->
+    <circle cx="63" cy="122" r="24" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="2.5"/>
+    <circle cx="63" cy="122" r="16" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <circle cx="63" cy="122" r="6" fill="#cbd5e1"/>
+    <circle cx="63" cy="122" r="21" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!--  REFRIGERATOR  (top-right)            -->
+  <!-- ══════════════════════════════════════ -->
+  <g filter="url(#softShadow)">
+    <rect x="306" y="50" width="80" height="200" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+    <rect x="306" y="50" width="80" height="92" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1.5"/>
+    <line x1="306" y1="142" x2="386" y2="142" stroke="#e2e8f0" stroke-width="1.5"/>
+    <!-- Handle top -->
+    <rect x="312" y="70" width="9" height="40" rx="4.5" fill="#cbd5e1"/>
+    <!-- Handle bottom -->
+    <rect x="312" y="152" width="9" height="52" rx="4.5" fill="#cbd5e1"/>
+    <!-- Brand strip -->
+    <rect x="332" y="88" width="42" height="5" rx="2.5" fill="#e2e8f0"/>
+    <!-- Vent lines -->
+    <line x1="322" y1="218" x2="378" y2="218" stroke="#e2e8f0" stroke-width="1.2"/>
+    <line x1="322" y1="228" x2="378" y2="228" stroke="#e2e8f0" stroke-width="1.2"/>
+    <line x1="322" y1="238" x2="378" y2="238" stroke="#e2e8f0" stroke-width="1.2"/>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!--  TV / MONITOR  (center, hero item)    -->
+  <!-- ══════════════════════════════════════ -->
+  <g filter="url(#shadow)">
+    <!-- Stand base -->
+    <rect x="170" y="216" width="80" height="9" rx="4.5" fill="#cbd5e1"/>
+    <!-- Stand neck -->
+    <rect x="195" y="204" width="30" height="14" rx="3" fill="#d1d5db"/>
+    <!-- Body -->
+    <rect x="92" y="40" width="236" height="168" rx="14" fill="#1e293b"/>
+    <!-- Inner screen border -->
+    <rect x="100" y="48" width="220" height="150" rx="10" fill="#0f172a"/>
+    <!-- Screen content -->
+    <rect x="104" y="52"  width="212" height="142" rx="8" fill="url(#tvScreen)"/>
+    <!-- Screen items (UI mockup) -->
+    <rect x="120" y="70" width="90" height="7" rx="3.5" fill="white" opacity="0.18"/>
+    <rect x="120" y="84" width="60" height="5" rx="2.5" fill="white" opacity="0.10"/>
+    <rect x="120" y="96" width="76" height="5" rx="2.5" fill="white" opacity="0.10"/>
+    <rect x="236" y="68" width="62" height="52" rx="8" fill="white" opacity="0.08"/>
+    <!-- Volume bar -->
+    <rect x="120" y="162" width="100" height="4" rx="2" fill="white" opacity="0.12"/>
+    <rect x="120" y="162" width="58"  height="4" rx="2" fill="white" opacity="0.30"/>
+    <!-- Screen glare -->
+    <path d="M104 52 Q144 52 158 72 Q136 80 104 72 Z" fill="white" opacity="0.055"/>
+    <!-- Bottom bezel detail -->
+    <rect x="192" y="200" width="36" height="5" rx="2.5" fill="#94a3b8" opacity="0.4"/>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!--  AIR CONDITIONER  (top-center)        -->
+  <!-- ══════════════════════════════════════ -->
+  <g filter="url(#softShadow)">
+    <rect x="155" y="18" width="110" height="36" rx="10" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.5"/>
+    <!-- Vents -->
+    <line x1="168" y1="32" x2="253" y2="32" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="168" y1="38" x2="253" y2="38" stroke="#bae6fd" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Status dots -->
+    <circle cx="162" cy="28" r="3.5" fill="#fbbf24"/>
+    <circle cx="172" cy="28" r="3.5" fill="#86efac"/>
+    <!-- Panel -->
+    <rect x="238" y="22" width="22" height="26" rx="5" fill="#e0f2fe"/>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!--  PHONE  (left lower)                  -->
+  <!-- ══════════════════════════════════════ -->
+  <g filter="url(#softShadow)">
+    <rect x="20" y="188" width="74" height="150" rx="20" fill="#1e293b"/>
+    <!-- Side buttons -->
+    <rect x="17" y="218" width="3" height="22" rx="1.5" fill="#374151"/>
+    <rect x="17" y="245" width="3" height="15" rx="1.5" fill="#374151"/>
+    <rect x="94" y="226" width="3" height="26" rx="1.5" fill="#374151"/>
+    <!-- Screen bezel -->
+    <rect x="26" y="202" width="62" height="122" rx="15" fill="#0f172a"/>
+    <!-- Screen content -->
+    <rect x="28" y="204" width="58" height="118" rx="13" fill="url(#phoneScreen)"/>
+    <!-- Dynamic island -->
+    <rect x="38" y="208" width="38" height="9" rx="4.5" fill="#0f172a"/>
+    <!-- App icons (3x3 grid simplified) -->
+    <rect x="34"  y="224" width="10" height="10" rx="3" fill="white" opacity="0.12"/>
+    <rect x="48"  y="224" width="10" height="10" rx="3" fill="white" opacity="0.12"/>
+    <rect x="62"  y="224" width="10" height="10" rx="3" fill="#fbbf24" opacity="0.35"/>
+    <rect x="34"  y="238" width="10" height="10" rx="3" fill="white" opacity="0.12"/>
+    <rect x="48"  y="238" width="10" height="10" rx="3" fill="white" opacity="0.12"/>
+    <rect x="62"  y="238" width="10" height="10" rx="3" fill="white" opacity="0.12"/>
+    <!-- Home bar -->
+    <rect x="39" y="304" width="36" height="3.5" rx="1.75" fill="#374151"/>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!--  LAPTOP  (center-bottom)              -->
+  <!-- ══════════════════════════════════════ -->
+  <g filter="url(#softShadow)">
+    <!-- Screen panel -->
+    <rect x="112" y="252" width="186" height="110" rx="9" fill="#1e293b"/>
+    <!-- Screen content -->
+    <rect x="118" y="258" width="174" height="96" rx="6" fill="url(#laptopScreen)"/>
+    <!-- UI on screen -->
+    <rect x="126" y="270" width="80" height="5" rx="2.5" fill="white" opacity="0.14"/>
+    <rect x="126" y="280" width="56" height="5" rx="2.5" fill="white" opacity="0.10"/>
+    <rect x="232" y="266" width="48" height="38" rx="5" fill="white" opacity="0.07"/>
+    <rect x="126" y="322" width="100" height="4" rx="2" fill="white" opacity="0.10"/>
+    <!-- Webcam -->
+    <circle cx="205" cy="256" r="2.5" fill="#374151"/>
+    <!-- Screen glare -->
+    <path d="M118 258 Q152 258 162 274 Q142 280 118 272 Z" fill="white" opacity="0.055"/>
+    <!-- Hinge -->
+    <rect x="108" y="360" width="194" height="5.5" rx="2.5" fill="#475569"/>
+    <!-- Base/keyboard -->
+    <rect x="102" y="364" width="206" height="16" rx="7" fill="#334155"/>
+    <!-- Keyboard rows -->
+    <rect x="112" y="368" width="140" height="3" rx="1.5" fill="#475569" opacity="0.7"/>
+    <rect x="112" y="373" width="140" height="3" rx="1.5" fill="#475569" opacity="0.7"/>
+    <!-- Trackpad -->
+    <rect x="164" y="368" width="58" height="10" rx="3" fill="#3d5473" opacity="0.6"/>
+    <!-- Base shadow line -->
+    <rect x="102" y="379" width="206" height="4" rx="2" fill="#2d3f52"/>
+  </g>
+
+  <!-- ══════════════════════════════════════ -->
+  <!--  Amber badge: 24h                     -->
+  <!-- ══════════════════════════════════════ -->
+  <g filter="url(#softShadow)">
+    <rect x="176" y="232" width="58" height="24" rx="12" fill="#fbbf24"/>
+    <text x="205" y="248" text-anchor="middle" font-size="10.5" font-weight="700" fill="white" font-family="system-ui,sans-serif">24h giao</text>
+  </g>
+
+</svg>
